@@ -40,11 +40,11 @@ const routes = [
   component: newuser,
 },
 {
-  path: "/ourReservation",
+  path: "/ourReservation/:cin",
   name: "ourReservation",
   component: ourReservation,
 },{
-  path: "/newRendezVous",
+  path: "/newRendezVous/:cin",
   name: "newRendezVous",
   component: newRendezVous,
 },
